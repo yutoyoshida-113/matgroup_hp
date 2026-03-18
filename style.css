@@ -669,6 +669,21 @@ table {
   margin-top: 6px;
 }
 
+.location-site-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.location-site-link:hover {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
 .location-tel a {
   color: var(--color-accent);
   transition: color var(--transition-base);
